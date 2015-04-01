@@ -1,7 +1,7 @@
 [article]:
   type
     http://schema.org/ScholarlyArticle
-  title
+  name
     My First Article About _Escherichia coli_
   sameAs
     http://dx.doi.org/10.1234/example.1
