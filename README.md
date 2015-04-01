@@ -4,7 +4,7 @@ Markdown-LD extends Markdown's [reference link](http://spec.commonmark.org/0.18/
 
 See [a Markdown-LD example](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.md) and the equivalent [JSON-LD](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.json) or [Turtle](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.ttl).
 
-## The Rules of Markdown-LD
+## Syntax
 
 * References are identifiers in square brackets: `[example]`
 * Object definitions start with an identifier in square brackets followed by a colon, on a new line with no indentation: `[example]:`
@@ -14,7 +14,7 @@ See [a Markdown-LD example](https://raw.githubusercontent.com/hubgit/markdown-ld
 * Newlines must be escaped: `\n`
 * Empty lines should be ignored.
 * Markdown-LD files use UTF-8 encoding.
-* Suggested media type: application/ld+markdown
+* Suggested media type: `application/ld+markdown`
 
 ## Differences from existing formats
 
