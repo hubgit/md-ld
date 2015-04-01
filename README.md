@@ -2,9 +2,9 @@
 
 Markdown-LD extends Markdown's [reference link](http://spec.commonmark.org/0.18/#reference-link) syntax to allow easy authoring of structured data.
 
-## Syntax
-
 See [a Markdown-LD example](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.md) and the equivalent [JSON-LD](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.json) or [Turtle](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.ttl).
+
+## Syntax
 
 * References are identifiers in square brackets: `[example]`
 * Object definitions start with an identifier in square brackets followed by a colon, on a new line with no indentation: `[example]:`
