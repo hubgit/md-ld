@@ -17,7 +17,7 @@
     [mrc123]
     [mrc456]
     [nih123]
-    
+
 [alice-jones]:
   type
     http://schema.org/Person
@@ -56,7 +56,7 @@
   address
     Department, Institution, City, State, Country
   url
-    http://mathematics.stanford.edu/    
+    http://mathematics.stanford.edu/
 
 [role-investigation]:
   type
@@ -82,26 +82,6 @@
     wrote the software
   contributor
     [alice-jones]
-
-[role-draft]:
-  type
-    http://schema.org/Role
-  url
-    http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_original_draft
-  description
-    wrote the manuscript
-  contributor
-    [alice-jones]
-
-[role-review]:
-  type
-    http://schema.org/Role
-  url
-    http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_review_%26_editing
-  description
-    reviewed and edited the manuscript
-  contributor
-    [bob-smith]
 
 [mrc123]:
   type
