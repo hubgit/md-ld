@@ -8,7 +8,7 @@
   datePublished
     2015-03-15T12:00:00
   author
-    [alf-eaton]
+    [alice-jones]
   contributor
     [role-investigation]
     [role-software]
@@ -17,13 +17,17 @@
     [mrc456]
     [nih123]
     
-[alf-eaton]:
+[alice-jones]:
   type
     http://schema.org/Person
   name
-    Alf Eaton
+    Alice Jones
   email
-    eaton.alf@gmail.com
+    alice.jones@example.com
+  sameAs
+    http://orcid.org/00000000-0000-0000-000002
+  affiliation
+    [http://organizations.org/1]
 
 [bob-smith]:
   type
@@ -38,19 +42,7 @@
     http://example.org/authors/1
   affiliation
     [stanford]
-
-[alice-jones]:
-  type
-    http://schema.org/Person
-  name
-    Alice Jones
-  email
-    alice.jones@example.com
-  sameAs
-    http://orcid.org/00000000-0000-0000-000002
-  affiliation
-    [http://organizations.org/1]
-
+    
 [stanford]:
   type
     http://schema.org/Organization
@@ -99,7 +91,7 @@
   description
     wrote the manuscript
   contributor
-    [bob-smith]
+    [alice-jones]
 
 [role-review]:
   type
@@ -109,7 +101,7 @@
   description
     reviewed and edited the manuscript
   contributor
-    [alice-jones]
+    [bob-smith]
 
 [mrc123]:
   type
