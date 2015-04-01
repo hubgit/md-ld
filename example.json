@@ -86,11 +86,13 @@
         {
             "@id": "_:harvard",
             "@type": "Organization",
+            "name": "Harvard University",
             "address": "Department, Institution, City, State, Country"
         },
         {
             "@id": "_:stanford",
             "@type": "Organization",
+            "name": "Stanford University",
             "address": "Department, Institution, City, State, Country",
             "url": "http://mathematics.stanford.edu/"
         },

@@ -47,12 +47,16 @@
 [harvard]:
   type
     http://schema.org/Organization
+  name
+    Harvard University
   address
     Department, Institution, City, State, Country
 
 [stanford]:
   type
     http://schema.org/Organization
+  name
+    Stanford University
   address
     Department, Institution, City, State, Country
   url
