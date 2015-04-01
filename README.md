@@ -12,6 +12,8 @@ Markdown-LD extends Markdown's [reference link](http://spec.commonmark.org/0.18/
 1. Values are on a new line, indented twice, and may have multiple values.
 1. Nested objects are not allowed.
 1. Newlines must be escaped (`\n`).
+1. Empty lines should be ignored.
+1. Markdown-LD files use UTF-8 encoding.
 
 ## Differences from existing formats
 
