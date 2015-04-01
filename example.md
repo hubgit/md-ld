@@ -9,6 +9,7 @@
     2015-03-15T12:00:00
   author
     [alice-jones]
+    [bob-smith]
   contributor
     [role-investigation]
     [role-software]
