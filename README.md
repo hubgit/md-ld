@@ -6,18 +6,18 @@ See [a Markdown-LD example](https://raw.githubusercontent.com/hubgit/markdown-ld
 
 ## The Rules of Markdown-LD
 
-1. References are identifiers in square brackets (`[example]`).
-1. Object definitions start with an identifier in square brackets followed by a colon, on a new line with no indentation (`[example]:`)
-1. Properties are each on a new line, indented.
-1. Values are on a new line, indented twice. Any property can have multiple values.
-1. Nested objects are not allowed.
-1. Newlines must be escaped (`\n`).
-1. Empty lines should be ignored.
-1. Markdown-LD files use UTF-8 encoding.
+* References are identifiers in square brackets: `[example]`
+* Object definitions start with an identifier in square brackets followed by a colon, on a new line with no indentation: `[example]:`
+* Properties are each on a new line, indented.
+* Values are on a new line, indented twice. Any property can have multiple values.
+* Nested objects are not allowed.
+* Newlines must be escaped: `\n`
+* Empty lines should be ignored.
+* Markdown-LD files use UTF-8 encoding.
 
 ## Differences from existing formats
 
-* Unlike YAML and JSON, there’s no need to use special array markup to distinguish between single and multiple values (in Markdown-LD, all properties should have singular names).
+* Unlike YAML and JSON(-LD), there’s no need to use special array markup to distinguish between single and multiple values (in Markdown-LD, all properties should have singular names).
 * Unlike Turtle, there’s no need to use angle brackets or quotes.
 * Unlike Markdown, the definition has more structure than a URL and a title.
 * Unlike JSON, indentation is significant.
