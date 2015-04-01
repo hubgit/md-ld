@@ -3,8 +3,8 @@
     http://schema.org/ScholarlyArticle
   title
     My First Article About _Escherichia coli_
-  doi
-    10.1234/example.1
+  sameAs
+    http://dx.doi.org/10.1234/example.1
   datePublished
     2015-03-15T12:00:00
   author
@@ -24,6 +24,47 @@
     Alf Eaton
   email
     eaton.alf@gmail.com
+
+[bob-smith]:
+  type
+    http://schema.org/Person
+  name
+    Bob Smith
+  email
+    bob.smith@example.com
+  sameAs
+    http://orcid.org/00000000-0000-0000-000001
+  url
+    http://example.org/authors/1
+  affiliation
+    [stanford]
+
+[alice-jones]:
+  type
+    http://schema.org/Person
+  name
+    Alice Jones
+  email
+    alice.jones@example.com
+  sameAs
+    http://orcid.org/00000000-0000-0000-000002
+  affiliation
+    [http://organizations.org/1]
+
+[stanford]:
+  type
+    http://schema.org/Organization
+  address
+    Department, Institution, City, State, Country
+  url
+    http://mathematics.stanford.edu/
+
+[harvard]:
+  type
+    http://schema.org/Organization
+  address
+    Department, Institution, City, State, Country
+    
 
 [role-investigation]:
   type
@@ -69,46 +110,6 @@
     reviewed and edited the manuscript
   contributor
     [alice-jones]
-
-[bob-smith]:
-  type
-    http://schema.org/Person
-  name
-    Bob Smith
-  email
-    bob.smith@example.com
-  sameAs
-    http://orcid.org/00000000-0000-0000-000001
-  url
-    http://example.org/authors/1
-  affiliation
-    [stanford]
-
-[alice-jones]:
-  type
-    http://schema.org/Person
-  name
-    Alice Jones
-  email
-    alice.jones@example.com
-  sameAs
-    http://orcid.org/00000000-0000-0000-000002
-  affiliation
-    [http://organizations.org/1]
-
-[stanford]:
-  type
-    http://schema.org/Organization
-  address
-    Department, Institution, City, State, Country
-  url
-    http://mathematics.stanford.edu/
-
-[harvard]:
-  type
-    http://schema.org/Organization
-  address
-    Department, Institution, City, State, Country
 
 [mrc123]:
   type
