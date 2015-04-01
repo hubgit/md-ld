@@ -9,7 +9,7 @@ Markdown-LD extends Markdown's [reference link](http://spec.commonmark.org/0.18/
 1. References are identifiers in square brackets (`[example]`).
 1. Object definitions start with an identifier in square brackets followed by a colon, on a new line with no indentation (`[example]:`)
 1. Properties are each on a new line, indented.
-1. Values are on a new line, indented twice, and may have multiple values.
+1. Values are on a new line, indented twice. Any property can have multiple values.
 1. Nested objects are not allowed.
 1. Newlines must be escaped (`\n`).
 1. Empty lines should be ignored.
