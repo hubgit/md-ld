@@ -14,6 +14,7 @@ See [a Markdown-LD example](https://raw.githubusercontent.com/hubgit/markdown-ld
 * Newlines must be escaped: `\n`
 * Empty lines should be ignored.
 * Markdown-LD files use UTF-8 encoding.
+* Suggested media type: application/ld+markdown
 
 ## Differences from existing formats
 
