@@ -7,8 +7,8 @@
             "sameAs": "http://dx.doi.org/10.1234/example.1",
             "datePublished": "2015-03-15T12:00:00",
             "author": [
-                { "@id": "alice-jones" },
-                { "@id": "bob-smith" }
+                { "@id": "_:alice-jones" },
+                { "@id": "_:bob-smith" }
             ],
             "contributor": [
                 {
@@ -18,8 +18,8 @@
                     "startDate": "2015-01-01",
                     "endDate": "2015-01-31",
                     "contributor": [
-                        { "@id": "alice-jones" },
-                        { "@id": "bob-smith" }
+                        { "@id": "_:alice-jones" },
+                        { "@id": "_:bob-smith" }
                     ]
                 },
                 {
@@ -27,81 +27,81 @@
                     "url": "http://dictionary.casrai.org/Contributor_Roles/Software",
                     "description": "wrote the software",
                     "contributor": [
-                        { "@id": "alice-jones" }
+                        { "@id": "_:alice-jones" }
                     ]
                 }
             ],
             "funder": [
                 {
-                    "@id": "mrc123",
+                    "@id": "_:mrc123",
                     "@type": "PayAction",
                     "name": "MRC123",
-                    "agent": { "@id": "mrc" },
+                    "agent": { "@id": "_:mrc" },
                     "recipient": [
-                        { "@id": "alice-jones" },
-                        { "@id": "bob-smith" }
+                        { "@id": "_:alice-jones" },
+                        { "@id": "_:bob-smith" }
                     ]
                 },
                 {
-                    "@id": "mrc456",
+                    "@id": "_:mrc456",
                     "@type": "PayAction",
                     "name": "MRC456",
-                    "agent": { "@id": "mrc" },
+                    "agent": { "@id": "_:mrc" },
                     "recipient": [
-                        { "@id": "alice-jones" },
-                        { "@id": "bob-smith" }
+                        { "@id": "_:alice-jones" },
+                        { "@id": "_:bob-smith" }
                     ]
                 },
                 {
-                    "@id": "nih123",
+                    "@id": "_:nih123",
                     "@type": "PayAction",
                     "name": "NIH123",
-                    "agent": { "@id": "nih" },
+                    "agent": { "@id": "_:nih" },
                     "recipient": [
-                        { "@id": "alice-jones" }
+                        { "@id": "_:alice-jones" }
                     ]
                 }
             ]
         },
         {
-            "@id": "alice-jones",
+            "@id": "_:alice-jones",
             "@type": "Person",
             "name": "Alice Jones",
             "email": "alice.jones@example.com",
             "sameAs": "http://orcid.org/00000000-0000-0000-000002",
             "affiliation": [
-                { "@id": "harvard" }
+                { "@id": "_:harvard" }
             ]
         },
         {
-            "@id": "bob-smith",
+            "@id": "_:bob-smith",
             "@type": "Person",
             "name": "Bob smith",
             "email": "bob.smith@example.com",
             "sameAs": "http://orcid.org/00000000-0000-0000-000001",
             "affiliation": [
-                { "@id": "stanford" }
+                { "@id": "_:stanford" }
             ]
         },
         {
-            "@id": "harvard",
+            "@id": "_:harvard",
             "@type": "Organization",
             "address": "Department, Institution, City, State, Country"
         },
         {
-            "@id": "stanford",
+            "@id": "_:stanford",
             "@type": "Organization",
             "address": "Department, Institution, City, State, Country",
             "url": "http://mathematics.stanford.edu/"
         },
         {
-            "@id": "mrc",
+            "@id": "_:mrc",
             "@type": "Organization",
             "name": "Medical Research Council",
             "sameAs": "http://dx.doi.org/10.13039/501100000265"
         },
         {
-            "@id": "nih",
+            "@id": "_:nih",
             "@type": "Organization",
             "name": "National Institutes of Health",
             "url": "http://www.nih.gov/",
