@@ -1,64 +1,64 @@
 _:article a <http://schema.org/ScholarlyArticle> ;
 	<http://schema.org/author> _:alice-jones , _:bob-smith ;
 	<http://schema.org/contributor> _:role-investigator , _:role-software ;
-	<http://schema.org/datePublished> "2015-03-15T12:00:00"^^<http://schema.org/Date> ;
+	<http://schema.org/datePublished> "2015-03-15" ;
 	<http://schema.org/funder> _:mrc123 , _:mrc456 , _:nih123 ;
-	<http://schema.org/name> "My First Article About Escherichia coli"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://schema.org/name> "My First Article About Escherichia coli" ;
 	<http://schema.org/sameAs> <http://dx.doi.org/10.1234/example.1> .
 
 _:alice-jones a <http://schema.org/Person> ;
 	<http://schema.org/affiliation> _:harvard ;
-	<http://schema.org/email> "alice.jones@example.com"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://schema.org/name> "Alice Jones"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://schema.org/email> "alice.jones@example.com" ;
+	<http://schema.org/name> "Alice Jones" ;
 	<http://schema.org/sameAs> <http://orcid.org/00000000-0000-0000-000002> .
 
 _:bob-smith a <http://schema.org/Person> ;
 	<http://schema.org/affiliation> _:stanford ;
-	<http://schema.org/email> "bob.smith@example.com"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://schema.org/name> "Bob smith"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://schema.org/email> "bob.smith@example.com" ;
+	<http://schema.org/name> "Bob smith" ;
 	<http://schema.org/sameAs> <http://orcid.org/00000000-0000-0000-000001> .
 
 _:role-investigator a <http://schema.org/Role> ;
 	<http://schema.org/contributor> _:alice-jones , _:bob-smith ;
-	<http://schema.org/description> "carried out the investigation"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://schema.org/endDate> "2015-01-31"^^<http://schema.org/Date> ;
-	<http://schema.org/startDate> "2015-01-01"^^<http://schema.org/Date> ;
+	<http://schema.org/description> "carried out the investigation" ;
+	<http://schema.org/endDate> "2015-01-31" ;
+	<http://schema.org/startDate> "2015-01-01" ;
 	<http://schema.org/url> <http://dictionary.casrai.org/Contributor_Roles/Investigation> .
 
 _:role-software a <http://schema.org/Role> ;
 	<http://schema.org/contributor> _:alice-jones ;
-	<http://schema.org/description> "wrote the software"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://schema.org/description> "wrote the software" ;
 	<http://schema.org/url> <http://dictionary.casrai.org/Contributor_Roles/Software> .
 
 _:mrc123 a <http://schema.org/PayAction> ;
 	<http://schema.org/agent> _:mrc ;
-	<http://schema.org/name> "MRC123"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://schema.org/name> "MRC123" ;
 	<http://schema.org/recipient> _:alice-jones , _:bob-smith .
 
 _:mrc a <http://schema.org/Organization> ;
-	<http://schema.org/name> "Medical Research Council"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://schema.org/name> "Medical Research Council" ;
 	<http://schema.org/sameAs> <http://dx.doi.org/10.13039/501100000265> .
 
 _:mrc456 a <http://schema.org/PayAction> ;
 	<http://schema.org/agent> _:mrc ;
-	<http://schema.org/name> "MRC456"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://schema.org/name> "MRC456" ;
 	<http://schema.org/recipient> _:alice-jones , _:bob-smith .
 
 _:nih123 a <http://schema.org/PayAction> ;
 	<http://schema.org/agent> _:nih ;
-	<http://schema.org/name> "NIH123"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://schema.org/name> "NIH123" ;
 	<http://schema.org/recipient> _:alice-jones .
 
 _:nih a <http://schema.org/Organization> ;
-	<http://schema.org/name> "National Institutes of Health"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://schema.org/name> "National Institutes of Health" ;
 	<http://schema.org/sameAs> <http://dx.doi.org/10.13039/100000002> ;
 	<http://schema.org/url> <http://www.nih.gov/> .
 
 _:harvard a <http://schema.org/Organization> ;
-	<http://schema.org/address> "Department, Institution, City, State, Country"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://schema.org/name> "Harvard University"^^<http://www.w3.org/2001/XMLSchema#string> .
+	<http://schema.org/address> "Department, Institution, City, State, Country" ;
+	<http://schema.org/name> "Harvard University" .
 
 _:stanford a <http://schema.org/Organization> ;
-	<http://schema.org/address> "Department, Institution, City, State, Country"^^<http://www.w3.org/2001/XMLSchema#string> ;
-	<http://schema.org/name> "Stanford University"^^<http://www.w3.org/2001/XMLSchema#string> ;
+	<http://schema.org/address> "Department, Institution, City, State, Country" ;
+	<http://schema.org/name> "Stanford University" ;
 	<http://schema.org/url> <http://mathematics.stanford.edu/> .
