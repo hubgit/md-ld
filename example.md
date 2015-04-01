@@ -44,7 +44,6 @@
   affiliation
     [stanford]
 
-
 [harvard]:
   type
     http://schema.org/Organization
