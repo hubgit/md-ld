@@ -27,7 +27,7 @@
   sameAs
     http://orcid.org/00000000-0000-0000-000002
   affiliation
-    [http://organizations.org/1]
+    [harvard]
 
 [bob-smith]:
   type
@@ -42,21 +42,21 @@
     http://example.org/authors/1
   affiliation
     [stanford]
-    
-[stanford]:
-  type
-    http://schema.org/Organization
-  address
-    Department, Institution, City, State, Country
-  url
-    http://mathematics.stanford.edu/
+
 
 [harvard]:
   type
     http://schema.org/Organization
   address
     Department, Institution, City, State, Country
-    
+
+[stanford]:
+  type
+    http://schema.org/Organization
+  address
+    Department, Institution, City, State, Country
+  url
+    http://mathematics.stanford.edu/    
 
 [role-investigation]:
   type
