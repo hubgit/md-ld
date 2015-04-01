@@ -2,7 +2,7 @@
 
 Markdown-LD extends Markdown's [reference link](http://spec.commonmark.org/0.18/#reference-link) syntax to allow easy authoring of structured data.
 
-[See a Markdown-LD example](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.md)
+[See a Markdown-LD example](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.md) and [the equivalent JSON-LD](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.json).
 
 ## The Rules of Markdown-LD
 
