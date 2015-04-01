@@ -18,7 +18,7 @@ See [a Markdown-LD example](https://raw.githubusercontent.com/hubgit/markdown-ld
 
 ## Differences from existing formats
 
-* Unlike YAML and JSON(-LD), there’s no need to use special array markup to distinguish between single and multiple values (in Markdown-LD, all properties should have singular names).
+* Unlike YAML and JSON(-LD), there’s no need to use special array markup to distinguish between single and multiple values (in Markdown-LD, all properties should have singular names and can have multiple values).
 * Unlike Turtle, there’s no need to use angle brackets or quotes.
 * Unlike Markdown, the definition has more structure than a URL and a title.
 * Unlike JSON, indentation is significant.
