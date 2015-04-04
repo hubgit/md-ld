@@ -1,8 +1,8 @@
-# Markdown-LD
+# MD-LD
 
-Markdown-LD extends Markdown's [reference link](http://spec.commonmark.org/0.18/#reference-link) syntax to allow easy authoring of structured data.
+MD-LD extends Markdown's [reference link](http://spec.commonmark.org/0.18/#reference-link) syntax to allow easy authoring of structured data.
 
-See [a Markdown-LD example](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.md) and the equivalent [YAML](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.yml), [JSON-LD](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.json) or [Turtle](https://raw.githubusercontent.com/hubgit/markdown-ld/master/example.ttl).
+See [a MD-LD example](https://raw.githubusercontent.com/hubgit/md-ld/master/example.md) and the equivalent [YAML](https://raw.githubusercontent.com/hubgit/md-ld/master/example.yml), [JSON-LD](https://raw.githubusercontent.com/hubgit/md-ld/master/example.json) or [Turtle](https://raw.githubusercontent.com/hubgit/md-ld/master/example.ttl).
 
 ## Syntax
 
@@ -13,12 +13,12 @@ See [a Markdown-LD example](https://raw.githubusercontent.com/hubgit/markdown-ld
 * Nested objects are not allowed.
 * Newlines must be escaped: `\n`
 * Empty lines should be ignored.
-* Markdown-LD files use UTF-8 encoding.
+* MD-LD files use UTF-8 encoding.
 * Suggested media type: `application/ld+markdown`
 
 ## Differences from existing formats
 
-* Unlike YAML and JSON(-LD), there’s no need to use special array markup to distinguish between single and multiple values (in Markdown-LD, all properties should have singular names and can have multiple values).
+* Unlike YAML and JSON(-LD), there’s no need to use special array markup to distinguish between single and multiple values (in MD-LD, all properties should have singular names and can have multiple values).
 * Unlike Turtle, there’s no need to use angle brackets or quotes.
 * Unlike Markdown, the definition has more structure than a URL and a title.
 * Unlike JSON, indentation is significant.
@@ -33,4 +33,4 @@ The `type` property of each object is a URL that defines the type of that object
 
 Data typing of property values is implicit: if the schema is well defined, the type of each value should be derived from the schema.
 
-Markdown-LD is not backwards-compatible with existing Markdown parsers - suggestions to make it so would be appreciated.
+MD-LD is not backwards-compatible with existing Markdown parsers - suggestions to make it so would be appreciated.
